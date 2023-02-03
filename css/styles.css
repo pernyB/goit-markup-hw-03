@@ -11,7 +11,41 @@ body {
   color: var(--body-text-color);
 }
 
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
 /*--------------------HEADER-----------------------------*/
+
+header {
+  border-bottom: 1px solid #E7E9FC;
+}
+
+.navigation {
+  display: flex;
+}
+
+.nav-address {
+  display: flex;
+  justify-content: space-between;
+}
 
 .link {
   text-decoration: none;
@@ -27,12 +61,28 @@ body {
   text-decoration: none;
 }
 
+.upper-logo {
+  display: flex;
+  align-items: center;
+  margin-right: 75px;
+  padding: 24px 0;
+}
+
+.header-list {
+  display: flex;
+  padding: 0;
+}
+
 .list {
   list-style-type: none;
 }
 
 .highlited-text {
   color: #4D5AE5;
+}
+
+.header-item {
+  margin-right: 40px;
 }
 
 .nav-link {
@@ -53,17 +103,32 @@ body {
   font-style: normal;
 }
 
+.mail-n-number-list {
+  display: flex;
+}
+
 .mail-n-number-link {
-  font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--headings-text);
 }
 
+.mail-n-number-item {
+  margin-left: 40px;
+}
+
 .mail-n-number-link:hover,
 .mail-n-number-link:focus {
   color:var(--active-color);
+}
+
+.nav-link, .mail-n-number-link {
+  padding: 24px 0;
+}
+
+.header-item, .mail-n-number-list {
+  padding: 24px 0;
 }
 
 /*--------------------HEADER-----------------------------*/
@@ -73,6 +138,7 @@ body {
 
 .solutions {
   background-color: var(--brand-background);
+  text-align: center;
 }
 
 .large-text {
@@ -80,6 +146,8 @@ body {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #FFFFFF;
+  margin: 0 auto;
+  padding-top: 190px;
 }
 
 .btn-solutions {
@@ -91,6 +159,12 @@ body {
   color: #FFFFFF;
   background-color: #4D5AE5;
   cursor: pointer;
+  margin-top: 50px;
+  margin-bottom: 190px;
+  padding: 16px 32px;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .btn-solutions:hover,
@@ -114,6 +188,10 @@ body {
   margin: -1px;
 }
 
+.features-head-text {
+  padding-bottom: 10px;
+}
+
 .upper-text {
   font-weight: 500;
   font-size: 20px;
@@ -122,10 +200,23 @@ body {
   color: var(--headings-text);
 }
 
+.features-text {
+  width: 265px;
+}
+
 .bottom-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+}
+
+.features-list {
+  display: flex;
+  padding: 120px 0px;
+}
+
+.features-item {
+  margin-right: 25px;
 }
 
 /*--------------------FEATURES-----------------------------*/
@@ -137,17 +228,52 @@ body {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: var(--headings-text);
+  text-align: center;
+  padding-bottom: 70px;
+}
+
+.about-list {
+  display: flex;
+  padding-bottom: 120px;
+}
+
+.about-item {
+  margin-right: 25px;
+  border: 1px solid #E7E9FC;
 }
 
 /*--------------------ABOUT-----------------------------*/
 
 /*--------------------TEAM-----------------------------*/
+
 .team {
   background-color: #F4F4FD;
 }
 
+.ht-team {
+  padding-top: 120px;
+}
+
+.team-list {
+  display: flex;
+  padding-bottom: 120px;
+}
+
 .team-item {
   background-color: #FFFFFF;
+  margin-right: 25px;
+  text-align: center;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-header-text {
+  padding-top: 32px;
+  padding-bottom: 10px;
+}
+
+.team-text {
+  padding-bottom: 32px;
 }
 
 /*--------------------TEAM-----------------------------*/
@@ -156,10 +282,12 @@ body {
 
 .bottom {
   background-color: var(--brand-background);
+  padding-top: 100px;
 }
 
 .logotype-bottom {
   color: #F4F4FD;
+  padding: 15px 15px 15px 0;
 }
 
 .footer-text {
@@ -167,11 +295,27 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #E7E9FC;
+  width: 265px;
+  padding-top: 15px;
+  padding-bottom: 100px;
 }
 
-/*End of first Page*/
+/*End of First Page*/
 
 /*Page Portfolio*/
+
+/*---------Jobs---------*/
+
+.filter-list {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+
+.filter-item {
+  margin-right: 25px;
+}
 
 .filter-btn {
   background-color: #F4F4FD;
@@ -182,10 +326,40 @@ body {
   letter-spacing: 0.04em;
   color: #4D5AE5;
   cursor: pointer;
+  padding: 12px 24px;
+  border: 1px solid #E7E9FC;
+  border-radius: 4px;
 }
 
 .filter-btn:hover,
 .filter-btn:focus {
   background-color: var(--active-color);
   color: #FFFFFF;
+}
+
+.jobs-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 70px;
+}
+
+.jobs-item {
+  margin-bottom: 50px;
+}
+
+.jobs-text {
+  border: 1px solid #E7E9FC;
+  border-top: none;
+}
+
+.jobs-upper-text {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+}
+
+.jobs-bottom-text {
+  padding-bottom: 30px;
+  padding-left: 15px;
 }
