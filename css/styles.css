@@ -139,6 +139,7 @@ header {
 .solutions {
   background-color: var(--brand-background);
   text-align: center;
+  padding-bottom: 190px;
 }
 
 .large-text {
@@ -160,7 +161,6 @@ header {
   background-color: #4D5AE5;
   cursor: pointer;
   margin-top: 50px;
-  margin-bottom: 190px;
   padding: 16px 32px;
   border: none;
   border-radius: 4px;
@@ -174,6 +174,10 @@ header {
 
 /*--------------------SOLUTIONS-----------------------------*/
 /*--------------------FEATURES-----------------------------*/
+
+.features {
+  padding: 120px 0px;
+}
 
 .visually-hidden {
   position: absolute;
@@ -212,7 +216,6 @@ header {
 
 .features-list {
   display: flex;
-  padding: 120px 0px;
 }
 
 .features-item {
@@ -222,6 +225,10 @@ header {
 /*--------------------FEATURES-----------------------------*/
 /*--------------------ABOUT-----------------------------*/
 
+.about {
+  padding-bottom: 120px;
+}
+
 .heading-text {
   font-size: 36px;
   line-height: 1.11; 
@@ -229,12 +236,11 @@ header {
   text-transform: capitalize;
   color: var(--headings-text);
   text-align: center;
-  padding-bottom: 70px;
+  margin-bottom: 70px;
 }
 
 .about-list {
   display: flex;
-  padding-bottom: 120px;
 }
 
 .about-item {
@@ -283,6 +289,7 @@ header {
 .bottom {
   background-color: var(--brand-background);
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .logotype-bottom {
@@ -297,7 +304,6 @@ header {
   color: #E7E9FC;
   width: 265px;
   padding-top: 15px;
-  padding-bottom: 100px;
 }
 
 /*End of First Page*/
@@ -306,11 +312,14 @@ header {
 
 /*---------Jobs---------*/
 
+.jobs {
+  padding-top: 100px;
+}
+
 .filter-list {
   display: flex;
   justify-content: center;
-  padding-top: 100px;
-  padding-bottom: 70px;
+  margin-bottom: 70px;
 }
 
 .filter-item {
@@ -351,6 +360,7 @@ header {
 .jobs-text {
   border: 1px solid #E7E9FC;
   border-top: none;
+  text-decoration: none;
 }
 
 .jobs-upper-text {
@@ -362,4 +372,5 @@ header {
 .jobs-bottom-text {
   padding-bottom: 30px;
   padding-left: 15px;
+  color: #434455;
 }
