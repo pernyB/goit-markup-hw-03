@@ -314,12 +314,13 @@ header {
 
 .jobs {
   padding-top: 100px;
+  padding-bottom: 120px;
 }
 
 .filter-list {
   display: flex;
   justify-content: center;
-  margin-bottom: 70px;
+  padding-bottom: 70px;
 }
 
 .filter-item {
@@ -350,11 +351,14 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding-bottom: 70px;
 }
 
 .jobs-item {
   margin-bottom: 50px;
+}
+
+.jobs-item:nth-child(n + 6) {
+  margin-bottom: 0;
 }
 
 .jobs-text {
