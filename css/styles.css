@@ -139,7 +139,7 @@ header {
 .solutions {
   background-color: var(--brand-background);
   text-align: center;
-  padding-bottom: 190px;
+  padding: 190px 0px;
 }
 
 .large-text {
@@ -147,8 +147,7 @@ header {
   line-height: 1.07;
   letter-spacing: 0.02em;
   color: #FFFFFF;
-  margin: 0 auto;
-  padding-top: 190px;
+  margin: 0 auto; 
 }
 
 .btn-solutions {
@@ -254,15 +253,11 @@ header {
 
 .team {
   background-color: #F4F4FD;
-}
-
-.ht-team {
-  padding-top: 120px;
+  padding: 120px 0px;
 }
 
 .team-list {
   display: flex;
-  padding-bottom: 120px;
 }
 
 .team-item {
