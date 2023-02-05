@@ -32,6 +32,11 @@ img {
   margin: 0 auto;
 }
 
+section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 /*--------------------HEADER-----------------------------*/
 
 header {
@@ -174,10 +179,6 @@ header {
 /*--------------------SOLUTIONS-----------------------------*/
 /*--------------------FEATURES-----------------------------*/
 
-.features {
-  padding: 120px 0px;
-}
-
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -225,7 +226,7 @@ header {
 /*--------------------ABOUT-----------------------------*/
 
 .about {
-  padding-bottom: 120px;
+  padding-top: 0;
 }
 
 .heading-text {
@@ -253,7 +254,7 @@ header {
 
 .team {
   background-color: #F4F4FD;
-  padding: 120px 0px;
+  
 }
 
 .team-list {
@@ -315,7 +316,7 @@ header {
 .filter-list {
   display: flex;
   justify-content: center;
-  padding-bottom: 70px;
+  margin-bottom: 70px;
 }
 
 .filter-item {
